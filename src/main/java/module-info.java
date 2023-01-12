@@ -3,10 +3,10 @@ module com.example.demofx {
     requires javafx.fxml;
 
 
-    opens com.example.scodscanner to javafx.fxml;
-    exports com.example.scodscanner;
-    exports com.example.scodscanner.functionality;
-    opens com.example.scodscanner.functionality to javafx.fxml;
-    exports com.example.scodscanner.objects;
-    opens com.example.scodscanner.objects to javafx.fxml;
+    opens com.example.atmquick to javafx.fxml;
+    exports com.example.atmquick;
+    exports com.example.atmquick.functionality;
+    opens com.example.atmquick.functionality to javafx.fxml;
+    exports com.example.atmquick.objects;
+    opens com.example.atmquick.objects to javafx.fxml;
 }

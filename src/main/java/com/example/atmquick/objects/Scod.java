@@ -1,4 +1,4 @@
-package com.example.scodscanner.objects;
+package com.example.atmquick.objects;
 
 import java.nio.file.Path;
 

@@ -1,9 +1,9 @@
-package com.example.scodscanner;
+package com.example.atmquick;
 
-import com.example.scodscanner.functionality.OpenLogFile;
-import com.example.scodscanner.functionality.ScanLogFiles;
-import com.example.scodscanner.functionality.ShowAboutInfo;
-import com.example.scodscanner.objects.Scod;
+import com.example.atmquick.functionality.OpenLogFile;
+import com.example.atmquick.functionality.ScanLogFiles;
+import com.example.atmquick.functionality.ShowAboutInfo;
+import com.example.atmquick.objects.Scod;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

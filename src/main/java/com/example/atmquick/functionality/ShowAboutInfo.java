@@ -1,4 +1,4 @@
-package com.example.scodscanner.functionality;
+package com.example.atmquick.functionality;
 
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -15,13 +15,10 @@ public class ShowAboutInfo {
         stage.setTitle("About");
         //Create view in Java
         Label title = new Label("""
-                SCODScanner
+                Name: ATMQuick
                 Version: 1 (2023-01-09)
                 Company: BS/2 Kazakhstan
-                
-                Описания ошибок взяты
-                из Android приложения
-                "Error Code ATM" (2023-01-10)""");
+                Reference: CMD-V4 Service Manual""");
         VBox container = new VBox(title);
         //Style title
         title.setTextAlignment(TextAlignment.CENTER);

@@ -1,4 +1,4 @@
-package com.example.scodscanner;
+package com.example.atmquick;
 
 public class App {
     public static void main(String[] args) {
