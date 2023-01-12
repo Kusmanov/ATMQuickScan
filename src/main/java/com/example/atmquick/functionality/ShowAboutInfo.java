@@ -15,10 +15,12 @@ public class ShowAboutInfo {
         stage.setTitle("About");
         //Create view in Java
         Label title = new Label("""
-                Name: ATMQuick
                 Version: 1 (2023-01-09)
                 Company: BS/2 Kazakhstan
-                Reference: CMD-V4 Service Manual""");
+                Reference: CMD-V4 Service Manual
+                
+                ATMQuick allows you to quickly
+                scan ATM logs and analyze errors""");
         VBox container = new VBox(title);
         //Style title
         title.setTextAlignment(TextAlignment.CENTER);
