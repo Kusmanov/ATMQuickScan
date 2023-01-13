@@ -1,0 +1,5 @@
+ERROR:
+Faulty measuring station (DDU).
+
+EXPLANATION/ACTION:
+Check whether there is a jam in the area of the measurement station. Are the cables connected? Replace dispensing unit with DDU or controller.

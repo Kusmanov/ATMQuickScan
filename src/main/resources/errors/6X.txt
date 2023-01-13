@@ -1,0 +1,5 @@
+ERROR:
+Cassette x defective (x = 1 - 6).
+
+EXPLANATION/ACTION:
+The note data stored in cassette 'x' could not be read and/or rewritten (writing error in the cassette EEPROM). Check the connectors on the CMD controller and the connectors on the cassette for correct seating. If the error also occurs with a different cassette in this dispensing unit, then the controller must be replaced.

@@ -1,0 +1,5 @@
+ERROR:
+Single reject switch (MA2/1, MA2/2, SM1) defective/blocked.
+
+EXPLANATION/ACTION:
+Check the SAT in the area of the single reject switch for jammed notes/note residue and remove them if found. Check the mobility of the single reject switch by pressing and releasing the rotor in the lift magnet MA2. Select Test function 2 (mechanical test) on the function button and watch the activation of the single reject switch. If the lift magnet MA2 does not move or if it does not move completely, the SAT or the controller must be replaced. If the magnet moves with a full stroke, then the CMD-V4 or the VCMD can be put back into operation. If the error occurs again after a short time, and if no reason can be determined following renewed inspection of the single reject switch, then the SAT or the controller must be replaced.

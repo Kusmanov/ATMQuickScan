@@ -1,0 +1,5 @@
+ERROR:
+Shutter error.
+
+EXPLANATION/ACTION:
+Check the output area of the CMD-V4 and of the shutter for foreign objects that prevent the movement of the shutter label. Move the CMD-V4 into dispensing position (safety switch closed). Select Test function 2 (mechanical test) on the function key and monitor the movement of the shutter. Troubleshooting can be performed on the shutter without danger even during ongoing test functions - afterwards, perform Test function 2 once again without operator intervention into the shutter movement. If this test ends once again with the status display '28', then the shutter or the controller must be replaced.

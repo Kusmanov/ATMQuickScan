@@ -1,0 +1,5 @@
+ERROR:
+CMD-V4: Bundle rear edge control, Shutter photosensor PS 28.
+
+EXPLANATION/ACTION:
+Photosensor '9x' is soiled and urgently requires cleaning. Remove dust deposits on the surfaces of the respective transmitter/receiver (elements with clear or violetcolored plastic housing) and if necessary from the associated prism (P) (two crystal-clear surfaces opposite the transmitter/receiver) with a brush or compressed air. After cleaning, return the CMD-V4 or VCMD to home position and await start-up or select '1' (Reset) on the function button. Check the degree of soiling of all photosensors in KDIAG with the test program via self-test command 'DYK' (Query status photosensors, photosensor amplifiers): Photosensors that exhibit status '3' or higher must be cleaned. Status improvement can be queried after the reset. Remark: After the first occurrence of the error code '9x', the CMD-V4 or VCMD can still continue working until the operation is automatically shut down with further increasing soiling (the status display '9' will also be displayed in such cases).

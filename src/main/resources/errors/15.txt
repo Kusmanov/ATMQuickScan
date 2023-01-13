@@ -1,0 +1,5 @@
+ERROR:
+Cassette distributor board with invalid coding, not inserted or defective.
+
+EXPLANATION/ACTION:
+Check the wiring to the cassette distributor board. Check the cassette distributor board and replace it if necessary.

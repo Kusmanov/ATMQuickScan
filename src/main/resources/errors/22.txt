@@ -1,0 +1,5 @@
+ERROR:
+Photosensor amplifier faulty or photosensor initialization unsuccessful.
+
+EXPLANATION/ACTION:
+Check all of the banknote paths from the cassettes to the stacking compartment, from the stacking compartment to the cash output and the input area of the RR cassette for jammed notes/note residues and remove these if found. Afterwards, bring the CMD-V4 or the VCMD back into the safe into dispensing position, whereby the safety switch is closed and the CMD-V4 or VCMD is started up again (Reset). If the status control shows '22' again after this start-up, then the controller must be replaced.

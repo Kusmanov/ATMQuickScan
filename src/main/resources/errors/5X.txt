@@ -1,0 +1,5 @@
+ERROR:
+Too many bad banknotes from cassette x (x = 1 - 6).
+
+EXPLANATION/ACTION:
+Too many double or excessively wide or excessively narrow notes were detected during a dispense transaction from cassette 'x'. Remove cassette 'x' and check whether the correct note type was placed in it. Check the notes for deformations or stickiness. Reinsert the cassette and restart the application. If many 'good' notes are controlled out by Single Reject, or if the error '4x' reoccurs after a short time, then a new reference value determination should be carried out for this note type. If the error cannot be eliminated, then the dispensing unit or the controller must be replaced.

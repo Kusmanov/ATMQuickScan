@@ -1,0 +1,5 @@
+ERROR:
+CMD-V4: Stacker wheel drive (SM9) defective/blocked. VCMD: comb-type lifting bar defective/blocked (SM5) Dispensing / Transport changeover switch defective/blocked (M3).
+
+EXPLANATION/ACTION:
+Check the SAT in the area of the stacking compartment for jammed notes/note residue and remove them if found. Move the CMD-V4 or the VCMD in the safe into dispensing position (safety switch closed) and select Text function 2 (mechanical test) on the function key after the start-up of the CMD-V4 or VCMD: If this test function ends once again with the status display '26', then the SAT or the controller must be replaced.

@@ -3,10 +3,10 @@ module com.example.demofx {
     requires javafx.fxml;
 
 
-    opens com.example.atmquick to javafx.fxml;
-    exports com.example.atmquick;
-    exports com.example.atmquick.functionality;
-    opens com.example.atmquick.functionality to javafx.fxml;
-    exports com.example.atmquick.objects;
-    opens com.example.atmquick.objects to javafx.fxml;
+    opens com.example.app to javafx.fxml;
+    exports com.example.app;
+    exports com.example.app.services;
+    opens com.example.app.services to javafx.fxml;
+    exports com.example.app.objects;
+    opens com.example.app.objects to javafx.fxml;
 }

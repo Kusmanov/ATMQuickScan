@@ -1,0 +1,5 @@
+ERROR:
+Output transport coding invalid.
+
+EXPLANATION/ACTION:
+Perform coding on the output transport cable connector.

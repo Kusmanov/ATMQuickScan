@@ -1,0 +1,5 @@
+ERROR:
+CMD-V4: Reject/retract drive defective/blocked (MA6).
+
+EXPLANATION/ACTION:
+The Reject/Retract chute selection in the RR cassette could not be set correctly. Remove the RR cassette and check the mobility of the retract box in the RR cassette. Check the connectors on the CMD controller and on the lift magnet MA6 for correct seating. Check the photosensor on the changeover lever for fixed seating. Move the CMD-V4 in the safe into dispensing position (safety switch closed). Re-insert the RR cassette and select Test function 2 (mechanical test) on the function key and monitor the movement of the RR drive (MA6). If the lift magnet does not move or if the end positions of the lever are not reached (status display '24' once again), then the output transport of the controller must be replaced.

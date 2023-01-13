@@ -1,0 +1,5 @@
+ERROR:
+Software faulty.
+
+EXPLANATION/ACTION:
+Switch the device off and on again. Read the hardware status (StopInfo field), perform a download if necessary.

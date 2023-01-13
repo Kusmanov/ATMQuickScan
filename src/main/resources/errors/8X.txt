@@ -1,0 +1,7 @@
+ERROR:
+Cassette empty sensor dirty (x = 1 - 6).
+
+EXPLANATION/ACTION:
+Clean photosensor 'PSEx' in the respective dispensing unit and the associated prism in the pressure carriage of the cassette. Afterwards, execute a reset (move CMD-V4 or VCMD into dispensing position). Check the degree of soiling of all photosensors in KDIAG with the test program via self-test command 'DYK' (Query status photosensors, photosensor amplifiers): Photosensors that exhibit status '3' or higher should be cleaned. Status improvement can be queried after reset.
+
+Note: After the first time this error has occurred, the CMD-V4 or VCMD can still continue working until the operation is automatically shut down with further increasing soiling.

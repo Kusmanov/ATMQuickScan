@@ -1,21 +1,19 @@
-package com.example.atmquick;
+package com.example.app;
 
-import com.example.atmquick.functionality.OpenLogFile;
-import com.example.atmquick.functionality.ScanLogFiles;
-import com.example.atmquick.functionality.ShowAboutInfo;
-import com.example.atmquick.objects.Scod;
+import com.example.app.services.OpenLogFile;
+import com.example.app.services.ScanLogFiles;
+import com.example.app.services.ShowAboutInfo;
+import com.example.app.objects.Scod;
+import com.example.app.services.ShowErrorDescription;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
 
 public class Controller {
     private static Stage aboutWindow;
     @FXML
-    public Label info;
+    public TextArea errorDescriptionTextArea;
     @FXML
     private TableView<Scod> scodTable;
     @FXML
@@ -41,6 +39,7 @@ public class Controller {
     @FXML
     private void onTableViewLineClick() {
         OpenLogFile.execute(logFileListView, scodTable);
+        ShowErrorDescription.execute(errorDescriptionTextArea, scodTable);
     }
 
     @FXML

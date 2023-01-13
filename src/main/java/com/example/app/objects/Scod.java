@@ -1,4 +1,4 @@
-package com.example.atmquick.objects;
+package com.example.app.objects;
 
 import java.nio.file.Path;
 

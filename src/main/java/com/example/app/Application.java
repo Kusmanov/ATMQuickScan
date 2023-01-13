@@ -1,4 +1,4 @@
-package com.example.atmquick;
+package com.example.app;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -11,7 +11,7 @@ public class Application extends javafx.application.Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("Main.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("ATMQuick");
+        stage.setTitle("ATMQuickScan");
         stage.setScene(scene);
         stage.show();
     }

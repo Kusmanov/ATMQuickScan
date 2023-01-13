@@ -1,0 +1,7 @@
+ERROR:
+SAT: Photosensor PS1 (P) dirty; stacker wheel input.
+
+EXPLANATION/ACTION:
+Clean the transmission and reception diodes between the stacker wheels carefully with a brush. Return the CMD-V4 to dispensing position. If the status display continues to show the error code '90' after startup (Reset), remove the stacker and clean the surfaces of the prism from below, between the stacker wheels, return the CMD-V4 to dispensing position. If the status display continues to show the error code '90' after startup (Reset), then the stacker must be replaced. Check the degree of soiling of all photosensors in KDIAG with the test program via self-test command 'DYK' (Query status photosensors, photosensor amplifiers). Photosensors that exhibit status '3' or higher must be cleaned. Status improvement can be queried after the reset.
+
+Note: After the first time this error has occurred, the CMD-V4 or VCMD can still continue working until the operation is automatically shut down with further increasing soiling.

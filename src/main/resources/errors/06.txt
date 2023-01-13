@@ -1,0 +1,5 @@
+ERROR:
+Communication problem with ChipCard / or wrong ChipCard inserted (ChipCard number not '226-0PR').
+
+EXPLANATION/ACTION:
+Check the ChipCard on the controller, replacing it if necessary.

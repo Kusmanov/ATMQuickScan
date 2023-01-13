@@ -1,4 +1,4 @@
-package com.example.atmquick.functionality;
+package com.example.app.services;
 
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -17,10 +17,9 @@ public class ShowAboutInfo {
         Label title = new Label("""
                 Version: 1 (2023-01-09)
                 Company: BS/2 Kazakhstan
-                Reference: CMD-V4 Service Manual
+                Reference: CMD-V4 Service Manual (January Edition 2014)
                 
-                ATMQuick allows you to quickly
-                scan ATM logs and analyze errors""");
+                ATMQuick allows you to quickly scan ATM logs and analyze errors""");
         VBox container = new VBox(title);
         //Style title
         title.setTextAlignment(TextAlignment.CENTER);

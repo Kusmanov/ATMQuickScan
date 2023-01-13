@@ -1,0 +1,5 @@
+ERROR:
+Dispensing drive (DCM1) defective / blocked.
+
+EXPLANATION/ACTION:
+The main motor (DCM 1) could no longer be brought up to its minimum rotational speed after a short start-up time. Select 1 (Reset) on the function key. The motor attempts to start up, but only labored operating noises are to be heard: check the bank note paths of the CMD-V4 or VCMD for a massive note jam. Check the input into the RR cassette to see if notes are jammed there. Move the CMD-V4 or the VCMD in the safe into dispensing position (safety switch closed) and select Text function 2 (mechanical test) on the function key after the startup of the CMD-V4 or VCMD: Observe the operating noises and transport function of the main motor. If the main motor does not rotate or if this test function ends again with the status display '25', the output transport or the controller must be replaced, otherwise the CMD-V4 or VCMD can be put back into operation.

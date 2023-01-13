@@ -1,6 +1,6 @@
-package com.example.atmquick.functionality;
+package com.example.app.services;
 
-import com.example.atmquick.objects.Scod;
+import com.example.app.objects.Scod;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.TableCell;

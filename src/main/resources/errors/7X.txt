@@ -1,0 +1,9 @@
+ERROR:
+Dispensing sensor dirty or pressure sensor faulty (x = 1 - 6).
+
+EXPLANATION/ACTION:
+A) If a cassette can be installed in cassette position 'x' without error (one-time signal tone), then the error message indicates an extremely soiled photosensor 'dispensing sensor' in the dispensing unit 'x' (PSDx) that must be cleaned. Afterwards, execute a reset (move CMD-V4 or VCMD into dispensing position).
+
+Note: After the first time this error has occurred, the CMD-V4 or VCMD can still continue working until the operation is automatically shut down with further increasing soiling.
+
+B) If it is not possible to deploy a cassette at cassette position 'x' (no signal tone, even after several seconds), then the dispensing unit or the controller must be replaced after checking the controllers on the CMD controller and on the pressure sensors (PSDx).
