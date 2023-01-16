@@ -5,26 +5,90 @@ import javafx.collections.ObservableList;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextArea;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 public class ShowErrorDescription {
     public static void execute(TextArea errorDescriptionTextArea, TableView<Scod> scodTable) {
         TableView.TableViewSelectionModel<Scod> sm = scodTable.getSelectionModel();
         ObservableList<Scod> tableViewOL = sm.getSelectedItems();
 
-        tableViewOL.get(0).getEcod();
+        if (!tableViewOL.isEmpty()) {
+            String cashOutSCOD = tableViewOL.get(0).getCashOut();
+            String cashInSCOD = tableViewOL.get(0).getCashIn();
+            String cashInECOD = tableViewOL.get(0).getEcod();
 
-        errorDescriptionTextArea.setText("""
-                ERROR:
-                No note dispensing possible or possibly faulty note contact pressure when deploying a new cassette (x = 1 - 6).
-                                
-                EXPLANATION/ACTION:
-                A) No note could be extracted from cassette 'x' or B) The required contact pressure could not be built up when the cassettes were pushed inside.
-                                
-                Procedure in Case A): 1. Remove cassette 'x' and check the note input: The notes must be standing vertically in the cassette. Are the front banknotes extremely deformed? If notes are curved, then the outward curve must face the pressure carriage! Are the front notes sticky or hooked into one another with kinks? 2. With the cassette removed, check the dispensing area in the dispensing unit for jammed notes/bank note residue. 3. Check the connectors on the CMD controller or VCMD and and on the coupling of the dispensing unit 'x' for correct seating. 4. Afterwards, place filled cassette in dispensing unit 'x' and select '3' (Trial dispensing process) on the function button with the safety switch closed. If this test ends once again with the error code '4x', select Trial dispensing process once again, checking the function of the coupling and retaining shaft while doing so. If the coupling or the retaining magnet is not actuated, the dispensing unit or the controller must be replaced.
-                                
-                Procedure in Case B): 1. Remove cassette 'x' and check the note input: The notes must be standing vertically in the cassette. Are the front banknotes extremely deformed? If notes are curved, then the outward curve must face the pressure carriage! If necessary, place notes from the rear part of the cassette towards the front. If the stack of notes rubs heavily against the side note guides (laterally protruding notes kinked to the rear) then the stack of notes needs to be aligned better. 2. Reinsert the cassette. Does the pressure carriage move forward audibly when doing so?
-                - If there is no noise to be heard, check the connectors on the CMD controller and the connectors on the cassette for correct seating. Carry out a test with a different cassette. If the motor still continues not to operate, then the controller is defective.
-                - If the motor noise is audible, but the error message '4x' occurs again after a few seconds (together with a three-signal sound), then remove the cassette and check the stroke of the dispensing shaft manually for sluggish movement. Remove the cassette, open it, move it by hand into dispensing position. Check the movement of the return bar for sluggish movement.
-                3. If no reason can be discerned and if this error also occurs with a different cassette in this dispensing unit, then the quality of the pressure sensor must be checked with test program and self-test command 'Query status cassette contact pressure' (DYQ) - If an error is present, then the dispensing unit or the controller must be replaced.
-                """);
+            errorDescriptionTextArea.setText(getCashOutErrorDescription(cashOutSCOD, cashInSCOD, cashInECOD));
+        }
+    }
+
+    private static String getCashOutErrorDescription(String cashOutSCOD, String cashInSCOD, String cashInECOD) {
+        StringBuilder ErrorDescription = new StringBuilder();
+
+        if (cashOutSCOD != null) {
+            Path path = null;
+            switch (cashOutSCOD) {
+                case "SCOD=01" -> path = Paths.get("src/main/resources/errors/01.txt");
+                case "SCOD=05" -> path = Paths.get("src/main/resources/errors/05.txt");
+                case "SCOD=06" -> path = Paths.get("src/main/resources/errors/06.txt");
+                case "SCOD=09" -> path = Paths.get("src/main/resources/errors/09.txt");
+                case "SCOD=10" -> path = Paths.get("src/main/resources/errors/10.txt");
+                case "SCOD=11" -> path = Paths.get("src/main/resources/errors/11.txt");
+                case "SCOD=12" -> path = Paths.get("src/main/resources/errors/12.txt");
+                case "SCOD=13" -> path = Paths.get("src/main/resources/errors/13.txt");
+                case "SCOD=14" -> path = Paths.get("src/main/resources/errors/14.txt");
+                case "SCOD=15" -> path = Paths.get("src/main/resources/errors/15.txt");
+                case "SCOD=16" -> path = Paths.get("src/main/resources/errors/16.txt");
+                case "SCOD=17" -> path = Paths.get("src/main/resources/errors/17.txt");
+                case "SCOD=18" -> path = Paths.get("src/main/resources/errors/18.txt");
+                case "SCOD=19" -> path = Paths.get("src/main/resources/errors/19.txt");
+                case "SCOD=20" -> path = Paths.get("src/main/resources/errors/20.txt");
+                case "SCOD=21" -> path = Paths.get("src/main/resources/errors/21.txt");
+                case "SCOD=22" -> path = Paths.get("src/main/resources/errors/22.txt");
+                case "SCOD=23" -> path = Paths.get("src/main/resources/errors/23.txt");
+                case "SCOD=24" -> path = Paths.get("src/main/resources/errors/24.txt");
+                case "SCOD=25" -> path = Paths.get("src/main/resources/errors/25.txt");
+                case "SCOD=26" -> path = Paths.get("src/main/resources/errors/26.txt");
+                case "SCOD=28" -> path = Paths.get("src/main/resources/errors/28.txt");
+                case "SCOD=29" -> path = Paths.get("src/main/resources/errors/29.txt");
+                case "SCOD=31", "SCOD=32", "SCOD=33", "SCOD=34", "SCOD=35", "SCOD=36"
+                        -> path = Paths.get("src/main/resources/errors/3X.txt");
+                case "SCOD=41", "SCOD=42", "SCOD=43", "SCOD=44", "SCOD=45", "SCOD=46"
+                        -> path = Paths.get("src/main/resources/errors/4X.txt");
+                case "SCOD=51", "SCOD=52", "SCOD=53", "SCOD=54", "SCOD=55", "SCOD=56"
+                        -> path = Paths.get("src/main/resources/errors/5X.txt");
+                case "SCOD=61", "SCOD=62", "SCOD=63", "SCOD=64", "SCOD=65", "SCOD=66"
+                        -> path = Paths.get("src/main/resources/errors/6X.txt");
+                case "SCOD=70" -> path = Paths.get("src/main/resources/errors/70.txt");
+                case "SCOD=71", "SCOD=72", "SCOD=73", "SCOD=74", "SCOD=75", "SCOD=76"
+                        -> path = Paths.get("src/main/resources/errors/7X.txt");
+                case "SCOD=81", "SCOD=82", "SCOD=83", "SCOD=84", "SCOD=85", "SCOD=86"
+                        -> path = Paths.get("src/main/resources/errors/8X.txt");
+                case "SCOD=90" -> path = Paths.get("src/main/resources/errors/90.txt");
+                case "SCOD=91" -> path = Paths.get("src/main/resources/errors/91.txt");
+                case "SCOD=93" -> path = Paths.get("src/main/resources/errors/93.txt");
+                case "SCOD=95" -> path = Paths.get("src/main/resources/errors/95.txt");
+                case "SCOD=9A" -> path = Paths.get("src/main/resources/errors/9A.txt");
+            }
+
+            if (path != null) {
+                try (BufferedReader reader = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
+                    String temp;
+                    while ((temp = reader.readLine()) != null) {
+                        ErrorDescription.append(temp).append("\n");
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        } else if (cashInSCOD != null && cashInECOD != null) {
+
+        }
+
+        return ErrorDescription.toString();
     }
 }

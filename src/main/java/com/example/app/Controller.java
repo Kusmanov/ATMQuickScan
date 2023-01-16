@@ -33,6 +33,8 @@ public class Controller {
 
     @FXML
     private void onSelectMenuItemClick() {
+        logFileListView.getItems().clear();
+        errorDescriptionTextArea.setText("");
         ScanLogFiles.execute(idColumn, cashInColumn, cashOutColumn, dateColumn, groupColumn, timeColumn, scodTable);
     }
 

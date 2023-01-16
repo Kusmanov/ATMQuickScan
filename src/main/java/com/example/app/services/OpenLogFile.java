@@ -21,7 +21,6 @@ public class OpenLogFile {
             Path path = tableViewOL.get(0).getFile();
             int lineNumber = tableViewOL.get(0).getLine();
 
-            sm.clearAndSelect(sm.getSelectedIndex());
             ObservableList<String> logFileOL = FXCollections.observableArrayList();
 
             try (BufferedReader reader = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {

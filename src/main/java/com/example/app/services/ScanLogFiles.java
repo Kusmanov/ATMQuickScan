@@ -126,7 +126,7 @@ public class ScanLogFiles {
     private static void addToObservableListNewScod(String type, Path path, String currentLine, String previousLine) {
         String date = getDate(path);
         String scod = getFoundMatch("SCOD=.{2}", currentLine);
-        String ecod = getFoundMatch("SCOD=.{4}", currentLine);
+        String ecod = getFoundMatch("ECOD=.{4}", currentLine);
         String timeCashIn = getFoundMatch("\\d{2}:\\d{2}:\\d{2}", previousLine);
         String timeCashOut = getFoundMatch("\\d{2}:\\d{2}:\\d{2}", currentLine);
 
