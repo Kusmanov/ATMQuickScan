@@ -17,9 +17,9 @@ public class ShowAboutInfo {
         Label title = new Label("""
                 Version: 1 (2023-01-09)
                 Company: BS/2 Kazakhstan
-                Reference: CMD-V4 Service Manual (January Edition 2014)
+                Reference: CMD-V4 service manual (2014) and CCDM service manual (2005)
                 
-                ATMQuick allows you to quickly scan ATM logs and analyze errors""");
+                ATMQuickScan allows you to quickly scan ATM logs and analyze errors""");
         VBox container = new VBox(title);
         //Style title
         title.setTextAlignment(TextAlignment.CENTER);
