@@ -1,0 +1,21 @@
+ERROR:
+Error on swivel transport unit or in the area of the bundle alignment.
+
+EXPLANATION/ACTION:
+Swivel transport unit:
+– Check the home position of swivel transport units 1 and 2.
+– Inspect photosensors VLS3 and VLS4.
+– Inspect motors VSM5 and VSM6.
+– Replace the dispenser module, if necessary.
+
+Bundle alignment:
+– Check whether the bundle alignment is clear.
+– Inspect photosensors VLS8 and motor VSM7.
+– Replace the dispenser module, if necessary.
+
+EC:
+– Swivel transport is mechanically blocked.
+– Home position photosensor is defective or soiled (VLS4).
+– Transport error: motor does not run properly (VSM6).
+
+Or diagnostic test triggered by operator: swivel transport 2 in dispenser module defective.

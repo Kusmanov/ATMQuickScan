@@ -1,0 +1,8 @@
+ERROR:
+Device configuration of controller incorrect or missing.
+
+EXPLANATION/ACTION:
+– Restart the system.
+– Load the appropriate configuration using the product-specific test software.
+– If the error reoccurs, reload the firmware.
+– If the error cannot be eliminated by means of the above steps, replace the amplifier / controller board.

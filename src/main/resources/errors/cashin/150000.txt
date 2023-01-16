@@ -1,0 +1,5 @@
+ERROR:
+Operating system is loading new files on the CCDM controller.
+
+EXPLANATION/ACTION:
+Wait for the system to finish loading the firmware.

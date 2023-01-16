@@ -1,0 +1,9 @@
+ERROR:
+The application overloads the CCDM hardware (too many reset commands per time unit).
+
+EXPLANATION/ACTION:
+– Power down the PC / the application.
+– Leave the CCDM switched on for five minutes.
+– Power up the PC / the application.
+– Perform a reset.
+– Inform the person who is responsible for software.

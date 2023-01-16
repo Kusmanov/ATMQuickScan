@@ -1,0 +1,5 @@
+ERROR:
+Data transfer on RS232 interface.
+
+EXPLANATION/ACTION:
+Wait for the data transfer to finish.

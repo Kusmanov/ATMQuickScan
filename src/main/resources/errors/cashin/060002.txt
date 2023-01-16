@@ -1,0 +1,8 @@
+ERROR:
+No connection to amplifier board.
+
+EXPLANATION/ACTION:
+– Check the plug connections between amplifier and controller board.
+– If necessary re-load the firmware.
+– Restart the CCDM.
+– If the error reoccurs replace the amplifier / controller board.

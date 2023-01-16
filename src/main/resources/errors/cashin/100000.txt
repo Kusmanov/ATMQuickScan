@@ -1,0 +1,7 @@
+ERROR:
+Error on controller.
+
+EXPLANATION/ACTION:
+– Restart the system.
+– If necessary re-load the firmware.
+– If the error cannot be eliminated, replace the amplifier / controller board.

@@ -1,0 +1,17 @@
+ERROR:
+Paper jam detected during separation process.
+
+EXPLANATION/ACTION:
+– Check paper path in dispenser module.
+– Clean the photosensors in the dispensing area of the dispenser module.
+– Carry out a photosensor adjustment / initialization.
+– Reset the photosensors to the default values, if necessary.
+– Check the dispenser module's motors, if necessary.
+– Restart the system.
+– Replace the dispenser module, if necessary.
+
+EC:
+– A paper jam has occurred in the intermediate transport and possibly also in the alignment station.
+– Photosensor VLS7 is defective or soiled.
+– Motors VSM2/3/4 do not run properly.
+– Motor ASM1 of alignment station does not run properly.

@@ -1,0 +1,6 @@
+ERROR:
+No firmware.
+
+EXPLANATION/ACTION:
+– Restart the system.
+– If the error persists, re-load the firmware.

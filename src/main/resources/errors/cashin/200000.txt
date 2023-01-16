@@ -1,0 +1,9 @@
+ERROR:
+Error of the metal detection unit.
+
+EXPLANATION/ACTION:
+– Check the plug connection on the metal detection unit.
+– Check the plug connection on the dispenser's board.
+– Restart the CCDM.
+– If the error reoccurs, replace the metal detection.
+– If the error reoccurs, replace the dispenser module.

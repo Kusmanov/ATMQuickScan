@@ -1,0 +1,10 @@
+ERROR:
+Safety switch is active.
+
+EXPLANATION/ACTION:
+– Check whether the CCDM (head module and cassette module) is pushed into the device correctly (locking mechanism!) and whether the safety switch is correctly bridged.
+– Check the connection cable between the safety switch and the back panel.
+– Restart the CCDM.
+– If the error reoccurs, replace the safety switch.
+
+After the LINE XSA module has been reconfigured, there is a waiting period of up to 270 seconds until the CCDM is ready for operation.

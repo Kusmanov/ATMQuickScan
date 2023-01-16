@@ -1,0 +1,5 @@
+ERROR:
+Minimum configuration is missing (at least 1 cash-in cassette + retract cassette)
+
+EXPLANATION/ACTION:
+Register the cassettes using the product-specific software (e.g. Service Operator Panel).
