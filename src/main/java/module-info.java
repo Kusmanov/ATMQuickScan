@@ -9,4 +9,6 @@ module com.example.demofx {
     opens com.example.app.services to javafx.fxml;
     exports com.example.app.objects;
     opens com.example.app.objects to javafx.fxml;
+    exports com.example.app.enums;
+    opens com.example.app.enums to javafx.fxml;
 }
