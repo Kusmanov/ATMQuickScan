@@ -3,7 +3,7 @@ package com.example.app;
 import com.example.app.services.OpenLogFile;
 import com.example.app.services.ScanLogFiles;
 import com.example.app.services.ShowAboutInfo;
-import com.example.app.objects.Scod;
+import com.example.app.model.Scod;
 import com.example.app.services.ShowErrorDescription;
 import javafx.application.Platform;
 import javafx.fxml.FXML;

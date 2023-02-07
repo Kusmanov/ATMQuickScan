@@ -2,7 +2,7 @@ package com.example.app.services;
 
 import com.example.app.enums.CashInErrors;
 import com.example.app.enums.CashOutErrors;
-import com.example.app.objects.Scod;
+import com.example.app.model.Scod;
 import javafx.collections.ObservableList;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextArea;

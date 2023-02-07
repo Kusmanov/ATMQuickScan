@@ -60,6 +60,8 @@
             <MenuItem mnemonicParsing="false" onAction="#onQuitMenuItemClick" text="Quit" />
         </Menu>
         <Menu mnemonicParsing="false" text="Help">
+         <MenuItem mnemonicParsing="false" text="CMD-V4 service manual" />
+         <MenuItem mnemonicParsing="false" text="CCDM service manual" />
             <MenuItem mnemonicParsing="false" onAction="#onAboutMenuItemClick" text="About" />
         </Menu>
     </MenuBar>
