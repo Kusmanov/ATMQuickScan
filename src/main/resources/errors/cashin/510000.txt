@@ -1,0 +1,7 @@
+ERROR:
+Escrow tape defective.
+
+EXPLANATION/ACTION:
+– Check the tape of the escrow unit.
+– Perform a reset.
+– Replace the escrow unit.

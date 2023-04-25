@@ -1,0 +1,7 @@
+ERROR:
+Document jam at the escrow unit.
+
+EXPLANATION/ACTION:
+– Perform a reset.
+– Clear the media jam in the escrow area.
+– Replace the escrow unit, if necessary.

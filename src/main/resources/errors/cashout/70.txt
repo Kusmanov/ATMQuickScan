@@ -1,0 +1,5 @@
+ERROR:
+Banknote measurement point (DDU) not ready.
+
+EXPLANATION/ACTION:
+Check whether there is a jam in the area of the measurement station. Is the measurement station dirty or are the cables plugged in? Replace dispensing unit with DDU or controller.

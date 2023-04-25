@@ -1,0 +1,12 @@
+ERROR:
+Media jam in front of or in the alignment station.
+
+EXPLANATION/ACTION:
+– Clear the media jam in the alignment station.
+– Check the photosensors and the motors in the alignment station.
+– Carry out a photosensor adjustment / initialization.
+– Perform a reset.
+– Replace the alignment station, if necessary.
+
+EC:
+No document jam. However, document transport caused problems (too much slippage or too much friction). Check transport path 'Intermediate Transport Exit' – 'Alignment Station' – 'Sensor Transport Entrance'.

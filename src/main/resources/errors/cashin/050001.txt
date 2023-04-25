@@ -1,0 +1,11 @@
+ERROR:
+No connection to dispenser module.
+
+EXPLANATION/ACTION:
+Permanent status display: Dispenser module 01750047708 is installed which may cause disturbances in the dispensing area. Replacement with an up-to-date dispenser module is recommended.
+
+Blinking status display:
+– Check the cable connection between the dispenser module and the back panel.
+– Restart the CCDM.
+– Replace the dispenser module.
+– If the error reoccurs, replace the chassis of the CCDM.

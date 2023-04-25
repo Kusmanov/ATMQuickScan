@@ -1,0 +1,8 @@
+ERROR:
+Media jam in sensor transport.
+
+EXPLANATION/ACTION:
+– Clear the media jam in the area of the magnetic ink character reader and up to the entry of the sensor transport. If the error occurs frequently, replace the magnetic ink character reader.
+
+EC:
+Slippage during transport of documents from ALS1 alignment to LINE XSA sensor, or LINE XSA sensor document message issued at the wrong time, so that the document message can no longer be allocated to a specific document.

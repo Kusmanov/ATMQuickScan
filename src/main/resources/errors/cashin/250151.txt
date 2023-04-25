@@ -1,0 +1,11 @@
+ERROR:
+Error of hall sensors.
+
+EXPLANATION/ACTION:
+– Check the plug connection on the dispenser's board (bottom of dispenser module).
+– Restart the system.
+– Replace the dispenser module, if necessary.
+
+EC:
+– Hall sensor element 2 is defective or plug is not plugged in.
+– Soiled roller, or paper remaining in roller.

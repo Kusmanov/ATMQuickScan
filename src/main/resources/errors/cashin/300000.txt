@@ -1,0 +1,7 @@
+ERROR:
+Error on magnetic character reader.
+
+EXPLANATION/ACTION:
+– Check the plug connection with the magnetic character reader.
+– Restart the CCDM.
+– Replace the magnetic character reader, if necessary.

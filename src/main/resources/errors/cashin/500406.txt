@@ -1,0 +1,10 @@
+ERROR:
+Document jam at the escrow unit.
+
+EXPLANATION/ACTION:
+– Perform a reset.
+– Clear the media jam in the escrow area.
+– Replace the escrow unit, if necessary.
+
+EC:
+Drive blocked, ESM1 motor not connected, motor logic defective, ELS3 fails to detect beginning of tape.

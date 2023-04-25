@@ -1,0 +1,13 @@
+ERROR:
+Error at photosensor SLS3.
+
+EXPLANATION/ACTION:
+blinking:
+Magnetic character reader not closed:
+
+constant:
+– First check whether the magnetic character reader is closed properly.
+– If you can get to the photosensor, try to clean it.
+– Check the photosensor using KDIAG.
+– Synchronize the photosensors.
+– If the error persists, replace the magnetic character reader.

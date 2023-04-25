@@ -1,0 +1,12 @@
+ERROR:
+Error of the cam disk.
+
+EXPLANATION/ACTION:
+– Restart the CCDM.
+– Check the cam disk position (release).
+– Replace the dispenser module, if necessary.
+
+EC:
+– Drive is mechanically blocked.
+– Home position photosensor is defective or soiled (VLS9).
+– Transport error: motor does not run properly (VSM8).

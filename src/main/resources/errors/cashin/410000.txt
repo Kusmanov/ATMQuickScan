@@ -1,0 +1,8 @@
+ERROR:
+Media jam in sensor transport.
+
+EXPLANATION/ACTION:
+– Clear the media jam in the sensor transport In particular, check the area of the 3-way deflector.
+– Check functioning of deflectors in sensor transport unit.
+– Restart the CCDM.
+– If the deflectors cannot be addressed correctly, replace the back panel including deposit transport and sensor transport, if necessary (logic error).

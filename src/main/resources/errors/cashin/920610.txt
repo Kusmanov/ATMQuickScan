@@ -1,0 +1,10 @@
+ERROR:
+Incorrect position of deflector in cassette module.
+
+EXPLANATION/ACTION:
+– Clear the media jam in the direction of cassette 1 (right cassette).
+– Restart the system.
+– Replace the cassette module, if necessary.
+
+EC:
+Banknote does not quit KLS8 photosensor near entrance to cassette 1 using specified path + tolerance.

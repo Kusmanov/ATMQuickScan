@@ -1,0 +1,9 @@
+ERROR:
+Battery on controller board empty.
+
+EXPLANATION/ACTION:
+– Restart the CCDM.
+– Delete the cassette counters and the CEX.
+– Perform a reset.
+– Restart the system.
+– If the error reoccurs replace the amplifier / controller board.

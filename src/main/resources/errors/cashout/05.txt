@@ -1,0 +1,5 @@
+ERROR:
+Communication problem with ChipCard controller.
+
+EXPLANATION/ACTION:
+Check the lines to the ChipCard controller. Check ChipCard controller, replacing it if necessary.

@@ -1,0 +1,7 @@
+ERROR:
+Operating system error, internal firmware error.
+
+EXPLANATION/ACTION:
+– Restart the CCDM.
+– If the error persists, re-load the firmware.
+– If the error reoccurs replace the amplifier / controller board.

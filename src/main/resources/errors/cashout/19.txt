@@ -1,0 +1,5 @@
+ERROR:
+CMD-V4: Clamp transport defective/blocked. VCMD: Note jam in output transport.
+
+EXPLANATION/ACTION:
+Clear the block and then perform a reset. Replace the stacker or the controller if necessary.

@@ -1,0 +1,9 @@
+ERROR:
+Document jam between sensor transport and reject transport.
+
+EXPLANATION/ACTION:
+– Clear the media jam between sensor and reject transport.
+– Perform a reset.
+
+EC:
+Document too short (smaller than 25mm).

@@ -1,0 +1,8 @@
+ERROR:
+Media jam in reject transport area.
+
+EXPLANATION/ACTION:
+– Remove any jammed media between the reject transport and the dispenser module or in the reject transport.
+– Check whether the belt of the reject transport is laying on the center of the guiding rollers.
+– Restart the CCDM.
+– Replace the dispenser module and/or the reject transport.

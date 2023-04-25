@@ -1,0 +1,12 @@
+ERROR:
+Incorrect position of deflector in cassette module.
+
+EXPLANATION/ACTION:
+– Check position of deflector in cassette module.
+– Check function of deflector in cassette module.
+– Perform a reset.
+– Restart the system.
+– Replace the cassette module, if necessary.
+
+EC:
+Incorrect position of deflector in cassette module.

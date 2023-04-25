@@ -1,0 +1,5 @@
+ERROR:
+Retract documents are stored in the input/output area.
+
+EXPLANATION/ACTION:
+Remove the documents from the input/output area.

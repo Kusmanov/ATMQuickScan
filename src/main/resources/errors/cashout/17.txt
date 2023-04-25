@@ -1,0 +1,5 @@
+ERROR:
+CMD-V4: Belt drive of clamp defective (M3) or jam.
+
+EXPLANATION/ACTION:
+Evaluate the error information in the device status. Initiate corresponding measures: e.g.: Replace the output transport or the controller.

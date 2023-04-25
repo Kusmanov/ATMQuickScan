@@ -1,0 +1,14 @@
+ERROR:
+Incorrect position of deflector in cassette module.
+
+EXPLANATION/ACTION:
+– Check position of deflector in cassette module.
+– Check function of deflector in cassette module.
+– Perform a reset.
+– Restart the system.
+– Replace the cassette module, if necessary.
+
+EC:
+Deflector (cassette 1 / cassette 2) is not functioning.
+
+Or diagnostic test triggered by operator: deflector (KSMx) in cassette module defective.

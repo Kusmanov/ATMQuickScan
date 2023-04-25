@@ -1,0 +1,9 @@
+ERROR:
+Document jam between sensor transport and storage / reject transport.
+
+EXPLANATION/ACTION:
+– Clear the media jam between sensor and storage or reject transport.
+– Restart the CCDM.
+
+EC:
+Banknote does not quit RLS1 photosensor using specified path and tolerance.RLS1.

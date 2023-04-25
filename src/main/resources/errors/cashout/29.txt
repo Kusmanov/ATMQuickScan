@@ -1,0 +1,5 @@
+ERROR:
+Output photosensor covered (manipulation).
+
+EXPLANATION/ACTION:
+Check the cash output of the SAT and the shutter for foreign objects that interfere with the function of the output photosensor. Check the connector on the CMD-V4 or VCMD for correct seating. Resetting the error code: Firmware version <=16.80: Move the CMD-V4 or VCMD in the safe into dispensing position (safety switch closed) and select '1' (Reset) with the function key. If the status display reports '29' once again after the start-up of the CMD-V4 or VCMD, then the shutter, the SAT or the controller must be replaced. FW version >=16.80: Pull out the CMD-V4 or the VCMD and then slide it back in again (safety switch opened/closed) and then wait for the subsequent RESET. If the status display reports '29' once again after the start-up of the CMD-V4 or VCMD, then the shutter, the SAT or the controller must be replaced.

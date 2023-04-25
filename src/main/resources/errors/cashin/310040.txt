@@ -1,0 +1,14 @@
+ERROR:
+Error on cheque / cash reader.
+
+EXPLANATION/ACTION:
+– Restart the CCDM.
+– Restart the system.
+– If necessary, reload cheque / cash reader firmware.
+– If necessary, reload Firewire firmware (for cheque & cash configuration).
+– If the error reoccurs even after the above steps have been taken, replace the cheque / cash reader.
+
+EC:
+Only relevant for cheque processing:
+– Check if the firewire cable is connected to the PC and the LINE XSA module.
+– Check the PC's Firewire card.

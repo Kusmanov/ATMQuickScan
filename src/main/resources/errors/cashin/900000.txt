@@ -1,0 +1,8 @@
+ERROR:
+Deflector in sensor transport has wrong position.
+
+EXPLANATION/ACTION:
+– Clear the media jam at the entry to the cassette module.
+– Remove the media jam in the cassette module – retract cassette / cassette 1 (right cassette) / cassette 2 (left cassette) (cassettes have to signed on again).
+– Restart the system.
+– Replace the cassette module, if necessary.

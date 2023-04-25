@@ -1,0 +1,5 @@
+ERROR:
+Safety switch open.
+
+EXPLANATION/ACTION:
+Insert CMD-V4 or VCMD.

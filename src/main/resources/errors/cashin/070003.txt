@@ -1,0 +1,9 @@
+ERROR:
+No connection to stacker board.
+
+EXPLANATION/ACTION:
+– Check the plug connection between amplifier board and controller board.
+– Check the configuration of the controller.
+– Re-load the firmware of the CCDM.
+– Restart the CCDM.
+– If the error reoccurs, replace the distributor transport.

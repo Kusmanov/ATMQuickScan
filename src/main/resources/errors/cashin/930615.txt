@@ -1,0 +1,20 @@
+ERROR:
+Error in cassette 1.
+
+EXPLANATION/ACTION:
+Permanent:
+– Remove the cassette 1 and empty it.
+
+Blinking:
+– Check proper fit of cassette 1 (right cassette) and re-insert cassette 1 properly, if necessary.
+– Check the plug connection between the controller and the cassette module.
+– Restart the CCDM.
+– Replace cassette 1 (right cassette) or replace the entire cassette module, if necessary.
+
+EC:
+– Stacker logic not connected (plug X1).
+– Stacker wheel in cassette 1 / cassette 2 is blocked.
+– Cassette 1 / cassette 2 not fully inserted (magnet on stacker wheel does not trigger Hall sensor).
+– Belt between stepper motor and stacker wheel has come off / is torn.
+– Home position magnet on stacker wheel is missing / has fallen off.
+– Hall sensor is defective / not connected.

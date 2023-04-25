@@ -1,0 +1,14 @@
+ERROR:
+Communications problems with cheque / cash reader.
+
+EXPLANATION/ACTION:
+– Re-load the firmware of the cheque / cash reader.
+– Check and update the banknote table.
+– Re-load the currency data.
+– Re-load the firmware.
+– Restart the CCDM.
+– Restart the system.
+– Replace the cheque / cash reader, if necessary.
+
+EC:
+LINE XSA communication error -> control logic RS232 data transfer problems.

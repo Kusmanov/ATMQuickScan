@@ -1,0 +1,8 @@
+ERROR:
+Shutter blocked.
+
+EXPLANATION/ACTION:
+– Remove any foreign matter from the shutter area.
+– Make sure the plug of the shutter is plugged in at the controller.
+– Perform a reset.
+– If the error reoccurs, replace the shutter.

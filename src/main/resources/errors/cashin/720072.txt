@@ -1,0 +1,12 @@
+ERROR:
+Error at photosensor ELS1.
+
+EXPLANATION/ACTION:
+blinking:
+– Carry out a photosensor adjustment / initialization.
+
+constant:
+– If you can get to the photosensor, try to clean it.
+– Check the photosensor using KDIAG.
+– Synchronize the photosensors.
+– If the error persists, replace the escrow unit.

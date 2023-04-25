@@ -1,0 +1,5 @@
+ERROR:
+CMD-V4: Routing disk (SM2/SM3) defective/blocked. VCMD: Note bundle reject switch defective/blocked SM6.
+
+EXPLANATION/ACTION:
+Clear block Move CMD-V4 or VCMD in the safe into dispensing position (safety switch closed) and select Test function 2 (mechanical test) on the function key after the start-up. If this test function ends once again with the status display '23', then the SAT or the controller must be replaced, otherwise the CMD-V4 or VCMD can be put back into operation.

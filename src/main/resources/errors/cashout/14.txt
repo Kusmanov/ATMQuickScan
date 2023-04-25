@@ -1,0 +1,5 @@
+ERROR:
+CMD-V4 or VCMD minimum configuration is missing.
+
+EXPLANATION/ACTION:
+Cassette is defective or absent. The CMD-V4 or VCMD requires at least one ready cash-out cassette and the reject/retract cassette (RR cassette) for operation. Insert the RR cassette and filled cash-out cassette(s) and register them using the product-specific software.

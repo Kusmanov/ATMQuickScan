@@ -1,0 +1,14 @@
+ERROR:
+Media jam in front of or in the alignment station.
+
+EXPLANATION/ACTION:
+– Clear the media jam in the alignment station.
+– Check the photosensors and the motors in the alignment station.
+– Carry out a photosensor adjustment / initialization.
+– Perform a reset.
+– Replace the alignment station, if necessary.
+
+EC:
+Document in front of ASL1 or ALS1 is defective (keeps detecting document) -> motor AMS1 possibly defective as a result of which document is not removed from position in front of ASL1.
+
+Or diagnostic test triggered by operator: alignment station defective.

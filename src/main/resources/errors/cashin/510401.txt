@@ -1,0 +1,10 @@
+ERROR:
+Escrow tape defective.
+
+EXPLANATION/ACTION:
+– Check the tape of the escrow unit.
+– Perform a reset.
+– Replace the escrow unit.
+
+EC:
+Band torn; tape no longer under ELS2.

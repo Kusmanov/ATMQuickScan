@@ -1,0 +1,16 @@
+ERROR:
+Incorrect position of deflector in cassette module.
+
+EXPLANATION/ACTION:
+– Check position of deflector in cassette module.
+– Check function of deflector in cassette module.
+– Perform a reset.
+– Restart the system.
+– Replace the cassette module, if necessary.
+
+EC:
+– There is some paper left inside the deflector.
+– Motor not connected.
+– Hybrid photosensor before reset is defective.
+
+Or diagnostic test triggered by operator: deflector (KSM5) in cassette module defective.

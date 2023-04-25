@@ -1,0 +1,11 @@
+ERROR:
+Communication problems (RS232 interface ) with cheque / cash reader.
+
+EXPLANATION/ACTION:
+– Re-load the cheque / cash reader's firmware, the CCDM's firmware and/or the Firewire firmware.
+
+EC:
+No connection between RS232 interface and LINE XSA interface:
+– Sensor transport not mounted or not properly connected.
+– 'Back panel board' connector has interrupted communication with sensor transport during operation.
+– Module does not reply within specified time limit.

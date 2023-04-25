@@ -1,0 +1,7 @@
+ERROR:
+Error of the cam disk.
+
+EXPLANATION/ACTION:
+– Restart the CCDM.
+– Check the cam disk position (release).
+– Replace the dispenser module, if necessary.

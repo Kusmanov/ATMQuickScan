@@ -1,0 +1,12 @@
+ERROR:
+Error in cassette 2.
+
+EXPLANATION/ACTION:
+Permanent:
+– Remove the cassette 2 and empty it.
+
+Blinking:
+– Check proper fit of cassette 2 (left cassette) and re-insert cassette 2 properly, if necessary.
+– Check the plug connection between the controller and the cassette module.
+– Restart the system.
+– Replace cassette 2 (left cassette) or replace the entire cassette module, if necessary.

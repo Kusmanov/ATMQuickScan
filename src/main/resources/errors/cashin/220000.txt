@@ -1,0 +1,10 @@
+ERROR:
+Media jam in dispenser module (feed error detected prior to dispensing).
+
+EXPLANATION/ACTION:
+– Remove any jammed media from the dispenser module's paper path.
+– Perform a reset.
+– Check the cam disk position.
+– Check the dispenser module's motors.
+– Restart the CCDM.
+– Replace the dispenser module, if necessary.

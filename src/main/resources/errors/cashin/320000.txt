@@ -1,0 +1,8 @@
+ERROR:
+External light in cheque / cash reader.
+
+EXPLANATION/ACTION:
+– Check whether light is falling on the cheque / cash reader.
+– Clean the scanner lines of the cheque / cash reader.
+– Carry out a photosensor adjustment / initialization.
+– Restart the system.

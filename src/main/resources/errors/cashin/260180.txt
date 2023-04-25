@@ -1,0 +1,16 @@
+ERROR:
+Media jam in reject transport area.
+
+
+EXPLANATION/ACTION:
+– Remove any jammed media between the reject transport and the dispenser module or in the reject transport.
+– Check whether the belt of the reject transport is laying on the center of the guiding rollers.
+– Restart the CCDM.
+– Replace the dispenser module and/or the reject transport.
+
+EC:
+– A paper jam has occurred in the paper path between stacker and I/O transport.
+– Photosensor VLS6 is defective or soiled.
+– Transport errors: motors (RSM1 / VSM1) do not run properly.
+– Incorrect cam disk position caused by jam or defect: I/O stacker should be lowered to ensure free reject path (VSM8 / VLS9).
+– Swivel transport 2 is not on top due to blocking etc. (VSM6 / VLS4).

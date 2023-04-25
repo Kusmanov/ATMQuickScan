@@ -1,0 +1,12 @@
+ERROR:
+Too many problems dispensing from cassette x (x = 1 - 6).
+
+EXPLANATION/ACTION:
+Bundle rejects can be caused by extremely skewed banknotes or banknotes that are extracted in an uncontrolled way or by problems with the photosensors. This error can be ignored the first time it occurs (warning). If the error has however already occurred, then please proceed as follows:
+1. Remove cassette from the dispensing unit 'x' and check the bank note input: Are the front notes deformed on one side? Uniform pressure of the front notes on the right-hand and left-hand sides?
+2. With the cassette removed, check the dispensing area in the dispensing unit for jammed bank note residue.
+3. Check the transport path from cassette 'x' to the stacking compartment for jammed notes/note residue. Has a transport belt run off the rollers?
+4. Check the connectors on the CMD controller or VCMD and on the individual elements of the photosensors for correct seating.
+5. Check the stroke of the magnet for the retaining shaft for sluggish movement by pressing the rotor (or check the movement of the magnet with Test function 2 (mechanical test)).
+
+If these tests reveal no errors and if the status '3x' continues to appear, then the respective dispensing unit or the controller must be replaced.

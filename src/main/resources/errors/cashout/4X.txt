@@ -1,0 +1,18 @@
+ERROR:
+No note dispensing possible or possibly faulty note contact pressure when deploying a new cassette (x = 1 - 6).
+
+EXPLANATION/ACTION:
+A) No note could be extracted from cassette 'x' or B) The required contact pressure could not be built up when the cassettes were pushed inside.
+
+Procedure in Case A):
+1. Remove cassette 'x' and check the note input: The notes must be standing vertically in the cassette. Are the front banknotes extremely deformed? If notes are curved, then the outward curve must face the pressure carriage! Are the front notes sticky or hooked into one another with kinks?
+2. With the cassette removed, check the dispensing area in the dispensing unit for jammed notes/bank note residue.
+3. Check the connectors on the CMD controller or VCMD and and on the coupling of the dispensing unit 'x' for correct seating.
+4. Afterwards, place filled cassette in dispensing unit 'x' and select '3' (Trial dispensing process) on the function button with the safety switch closed. If this test ends once again with the error code '4x', select Trial dispensing process once again, checking the function of the coupling and retaining shaft while doing so. If the coupling or the retaining magnet is not actuated, the dispensing unit or the controller must be replaced.
+
+Procedure in Case B):
+1. Remove cassette 'x' and check the note input: The notes must be standing vertically in the cassette. Are the front banknotes extremely deformed? If notes are curved, then the outward curve must face the pressure carriage! If necessary, place notes from the rear part of the cassette towards the front. If the stack of notes rubs heavily against the side note guides (laterally protruding notes kinked to the rear) then the stack of notes needs to be aligned better.
+2. Reinsert the cassette. Does the pressure carriage move forward audibly when doing so?
+- If there is no noise to be heard, check the connectors on the CMD controller and the connectors on the cassette for correct seating. Carry out a test with a different cassette. If the motor still continues not to operate, then the controller is defective.
+- If the motor noise is audible, but the error message '4x' occurs again after a few seconds (together with a three-signal sound), then remove the cassette and check the stroke of the dispensing shaft manually for sluggish movement. Remove the cassette, open it, move it by hand into dispensing position. Check the movement of the return bar for sluggish movement.
+3. If no reason can be discerned and if this error also occurs with a different cassette in this dispensing unit, then the quality of the pressure sensor must be checked with test program and self-test command 'Query status cassette contact pressure' (DYQ) - If an error is present, then the dispensing unit or the controller must be replaced.

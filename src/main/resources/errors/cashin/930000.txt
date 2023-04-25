@@ -1,0 +1,12 @@
+ERROR:
+Error in cassette 1.
+
+EXPLANATION/ACTION:
+Permanent:
+– Remove the cassette 1 and empty it.
+
+Blinking:
+– Check proper fit of cassette 1 (right cassette) and re-insert cassette 1 properly, if necessary.
+– Check the plug connection between the controller and the cassette module.
+– Restart the CCDM.
+– Replace cassette 1 (right cassette) or replace the entire cassette module, if necessary.

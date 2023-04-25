@@ -1,0 +1,5 @@
+ERROR:
+Device lock waiting.
+
+EXPLANATION/ACTION:
+A retract has been performed during which the bank notes that were not removed by the customer have been deposited in the SAT. All transport functions of the CMD-V4 or VCMD have been blocked afterwards by the software. Remove the customer bank notes from the SAT, then use the product-specific software to reset the device lock (RESET inhibit flag).

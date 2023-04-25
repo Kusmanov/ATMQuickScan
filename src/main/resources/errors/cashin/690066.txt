@@ -1,0 +1,13 @@
+ERROR:
+Error at photosensor ALS1.
+
+EXPLANATION/ACTION:
+blinking:
+Cover of alignment station is not closed:
+
+constant:
+– First check whether the cover of the alignment station is closed properly.
+– If you can get to the photosensor, try to clean it.
+– Check the photosensor using KDIAG.
+– Synchronize the photosensors.
+– If the error persists, replace the alignment station.

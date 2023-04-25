@@ -1,0 +1,9 @@
+ERROR:
+Media jam in sensor transport.
+
+EXPLANATION/ACTION:
+– Clear the media jam in the area of the magnetic ink character reader and up to the entry of the sensor transport. If the error occurs frequently, replace the magnetic ink character reader.
+
+EC:
+– Document deflecting unit in alignment station is not functioning; blocked.
+– Photosensor SLS3 is defective or soiled.

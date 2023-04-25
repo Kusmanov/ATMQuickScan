@@ -1,0 +1,5 @@
+ERROR:
+Locking handle open CMD-V4 or VCMD is not in dispensing position.
+
+EXPLANATION/ACTION:
+Push the CMD-V4 or VCMD as far as possible into the device using the green locking handle (CMD-V4 or VCMD must audibly click into place). If this should not be possible, then the locking switch must be checked and possibly recalibrated or replaced.

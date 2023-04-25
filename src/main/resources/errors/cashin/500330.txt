@@ -1,0 +1,12 @@
+ERROR:
+Document jam at the escrow unit.
+
+EXPLANATION/ACTION:
+– Perform a reset.
+– Clear the media jam in the escrow area.
+– Replace the escrow unit, if necessary.
+
+EC:
+Document jam at escrow unit ELS1.
+
+Or diagnostic test triggered by operator: escrow unit defective.

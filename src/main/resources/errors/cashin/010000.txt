@@ -1,0 +1,7 @@
+ERROR:
+Operating system error, hardware error.
+
+EXPLANATION/ACTION:
+– Restart the CCDM.
+– If necessary re-load the firmware.
+– If the error reoccurs, replace the controller.

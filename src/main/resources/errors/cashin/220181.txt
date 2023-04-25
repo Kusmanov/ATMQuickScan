@@ -1,0 +1,17 @@
+ERROR:
+Media jam in dispenser module (feed error detected prior to dispensing).
+
+EXPLANATION/ACTION:
+– Remove any jammed media from the dispenser module's paper path.
+– Perform a reset.
+– Check the cam disk position.
+– Check the dispenser module's motors.
+– Restart the CCDM.
+– Replace the dispenser module, if necessary.
+
+EC:
+– A paper jam has occurred in the paper path between stacker and I/O transport, or paper is too long.
+– Photosensor VLS2 is defective or soiled.
+– Transport errors: motors (RSM1 / VSM1 / VSM2) do not run properly.
+– Incorrect cam disk position caused by jam or defect: Transport rollers should plunge through stacker table I/O transport (VSM8 / VLS9).
+– Swivel transport 2 is not on top due to blocking etc. (VSM6 / VLS4).

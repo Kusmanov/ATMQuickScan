@@ -1,0 +1,14 @@
+ERROR:
+Error at photosensor VLS7.
+
+EXPLANATION/ACTION:
+blinking:
+– Carry out a photosensor adjustment / initialization.
+– If possible, check the photosensor using the product-specific software (e.g. KDIAG).
+– If the error persists, replace the dispenser module.
+
+constant:
+– If you can get to the photosensor, try to clean it.
+– Check the photosensor using KDIAG.
+– Synchronize the photosensors.
+– If the error persists, replace the dispenser module.

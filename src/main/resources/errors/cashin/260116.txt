@@ -1,0 +1,16 @@
+ERROR:
+Media jam in reject transport area.
+
+
+EXPLANATION/ACTION:
+– Remove any jammed media between the reject transport and the dispenser module or in the reject transport.
+– Check whether the belt of the reject transport is laying on the center of the guiding rollers.
+– Restart the CCDM.
+– Replace the dispenser module and/or the reject transport.
+
+EC:
+– Paper jam in reject path.
+– Mechanical initialization of cam disk not correct due to blocking. See error code no. 140 for details.
+– Mechanical initialization of swivel transport 2 not correct. See error code no. 122 for details.
+– Photosensor VLS6 / VLS2 is defective or soiled.
+– Dispensing motors VSM2/3 do not run properly.

@@ -1,0 +1,10 @@
+ERROR:
+Incorrect position of deflector in cassette module.
+
+EXPLANATION/ACTION:
+– Clear the media jam in the direction of cassette 1 (right cassette).
+– Restart the system.
+– Replace the cassette module, if necessary.
+
+EC:
+Incorrect position of deflector in cassette module.

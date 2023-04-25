@@ -1,0 +1,9 @@
+ERROR:
+Error on cheque / cash reader.
+
+EXPLANATION/ACTION:
+– Restart the CCDM.
+– Restart the system.
+– If necessary, reload cheque / cash reader firmware.
+– If necessary, reload Firewire firmware (for cheque & cash configuration).
+– If the error reoccurs even after the above steps have been taken, replace the cheque / cash reader.

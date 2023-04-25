@@ -1,0 +1,8 @@
+ERROR:
+Initialization error of reject transport.
+
+EXPLANATION/ACTION:
+– Check the reject transport's plug connection. To check it first remove the cheque / cash reader.
+– Check the basic position of shaft / axis and the screw in the reject transport unit.
+– Restart the CCDM.
+– Replace the reject transport, if necessary.

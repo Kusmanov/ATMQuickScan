@@ -1,0 +1,12 @@
+ERROR:
+Media jam in front of or in the alignment station.
+
+EXPLANATION/ACTION:
+– Clear the media jam in the alignment station.
+– Check the photosensors and the motors in the alignment station.
+– Carry out a photosensor adjustment / initialization.
+– Perform a reset.
+– Replace the alignment station, if necessary.
+
+EC:
+Document jam in the alignment drum (document remains in drum).

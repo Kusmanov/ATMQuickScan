@@ -1,0 +1,5 @@
+ERROR:
+Controller defective or battery empty or battery jumper not connected: only with self-test commands for battery testing.
+
+EXPLANATION/ACTION:
+Insert the battery jumper or replace the battery or replace the controller if the battery is permanently soldered in place.

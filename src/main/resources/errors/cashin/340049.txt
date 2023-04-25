@@ -1,0 +1,8 @@
+ERROR:
+Communication problems (RS232 interface ) with cheque / cash reader.
+
+EXPLANATION/ACTION:
+– Re-load the cheque / cash reader's firmware, the CCDM's firmware and/or the Firewire firmware.
+
+EC:
+LINE XSA firmware and CCDM firmware not compatible.

@@ -1,0 +1,15 @@
+ERROR:
+Media jam in sensor transport.
+
+EXPLANATION/ACTION:
+– Clear the media jam between sensor and deposit transport.
+– Restart the CCDM.
+– Check functioning of deflectors and motors in sensor transport unit.
+– If the deflectors cannot be addressed correctly, replace the back panel including deposit transport and sensor transport, if necessary (logic error).
+
+EC:
+– Document / document jam in sensor transport unit at three-way deflector.
+– SSM2 motor defective / not connected.
+– SSM2 sensor defective / not connected.
+
+Or diagnostic test triggered by operator: 3-way deflector (SSM2) in sensor transport defective.
