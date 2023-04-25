@@ -8,7 +8,7 @@ import javafx.scene.control.*;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
 
-import java.io.File;
+import java.io.*;
 
 public class Controller {
     private static Stage aboutWindowStage;
